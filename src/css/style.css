@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial sans-serif;
+    background: #7d9ddb;
+}
+.about{
+    background: #f2f3f4;
+    display: flex;
+    padding: 3rem 0;
+    flex: 1 1 50%;
+}
+.about__heading{
+    font-size: 1.125rem;
+    color: rgba(58, 38, 94, 0.53);
+    margin-bottom: 1rem;
+}
+.about__item{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1);
+    line-height: 1.5;
+}
